@@ -123,8 +123,8 @@ animateRandomColorAndSize(){
               child: Text("Flutter"),
               style: textstyle, //Provide the textStyle you want to animate. 
               duration: Duration(milliseconds: 800),
-              //onEnd: loop ? endCallback : null,
-              onEnd: loop2 ? endCallback2 : null,
+              //onEnd: loop ? endCallback : null, //for button animatedLoop
+              onEnd: loop2 ? endCallback2 : null, //for button animatedLoop2
               //curve: Curves.easeOut,
               //overflow: TextOverflow.clip,
               //softWrap: true,
